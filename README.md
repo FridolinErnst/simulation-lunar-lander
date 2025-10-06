@@ -57,5 +57,15 @@ A short video demonstration (2 min) of gameplay, physics behavior, and landing d
 
 ---
 
-## 🖥️ Project Structure
 
+## 👤 Author
+
+**Fridolin Ernst**  
+University of Applied Sciences Technikum Wien  
+Department of Computer Science  
+Winter Semester 2025/26
+
+---
+
+## 🪪 License
+This project is intended for educational and portfolio use only.
