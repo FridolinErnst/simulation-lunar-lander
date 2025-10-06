@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpmhg2pai0tqh"]
+
+[ext_resource type="FontFile" uid="uid://b6yvhshef8hav" path="res://Font/EagleLake-Regular.ttf" id="1_b3bc3"]
+
+[node name="UI" type="CanvasLayer"]
+
+[node name="FuelLabel" type="Label" parent="."]
+offset_left = 4.0
+offset_top = 34.0
+offset_right = 175.0
+offset_bottom = 89.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Fuel: 100"
+
+[node name="VelocityLabel" type="Label" parent="."]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 659.0
+offset_bottom = 117.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_b3bc3")
+theme_override_font_sizes/font_size = 20
+text = "Velocity: X=0 / Y=0 / Z=0 / Speed=0
+"
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 6
+size_flags_vertical = 6
+
+[node name="CongratsLabel" type="Label" parent="CenterContainer"]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 100
+text = "Congrats!
+"
+horizontal_alignment = 1
+vertical_alignment = 1

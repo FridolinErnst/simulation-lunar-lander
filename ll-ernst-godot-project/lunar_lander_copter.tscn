@@ -1,0 +1,244 @@
+[gd_scene load_steps=5 format=3 uid="uid://d1ik1xt4hbw73"]
+
+[ext_resource type="PackedScene" uid="uid://cgk7awwdvobi6" path="res://assets/LunarLanderCopter.glb" id="1_nqbha"]
+
+[sub_resource type="Animation" id="Animation_7j0rr"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Armature/Skeleton3D/Plane_070:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Armature/Skeleton3D/Plane_067:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Armature/Skeleton3D/Plane_068:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Armature/Skeleton3D/Plane_069:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Armature/Skeleton3D/Plane_070:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Armature/Skeleton3D/Plane_067:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Armature/Skeleton3D/Plane_068:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Armature/Skeleton3D/Plane_069:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_nqbha"]
+resource_name = "rotatePropeller"
+length = 0.16667
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Armature/Skeleton3D/Plane_070:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0291059, 0.0495235, 0.0825391, 0.102088, 0.122505, 0.139882),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-0.283489, 0, 0.0240232), Vector3(-0.385957, 0, 0.173039), Vector3(-0.214717, 0, 0.387242), Vector3(-0.0188061, 0, 0.402639), Vector3(0.100805, 0, 0.306355), Vector3(0.0472134, 0, 0.152514)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Armature/Skeleton3D/Plane_067:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.0291059, 0.0495235, 0.0825391, 0.102088, 0.122505, 0.139882),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-0.283489, 0, 0.0240232), Vector3(-0.385957, 0, 0.173039), Vector3(-0.214717, 0, 0.387242), Vector3(-0.0188061, 0, 0.402639), Vector3(0.100805, 0, 0.306355), Vector3(0.0472134, 0, 0.152514)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Armature/Skeleton3D/Plane_068:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.0291059, 0.0495235, 0.0825391, 0.102088, 0.122505, 0.139882),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-0.283489, 0, 0.0240232), Vector3(-0.385957, 0, 0.173039), Vector3(-0.214717, 0, 0.387242), Vector3(-0.0188061, 0, 0.402639), Vector3(0.100805, 0, 0.306355), Vector3(0.0472134, 0, 0.152514)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Armature/Skeleton3D/Plane_069:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.0291059, 0.0495235, 0.0825391, 0.102088, 0.122505, 0.139882),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-0.283489, 0, 0.0240232), Vector3(-0.385957, 0, 0.173039), Vector3(-0.214717, 0, 0.387242), Vector3(-0.0188061, 0, 0.402639), Vector3(0.100805, 0, 0.306355), Vector3(0.0472134, 0, 0.152514)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Armature/Skeleton3D/Plane_070:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.166667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 6.44026, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Armature/Skeleton3D/Plane_067:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.166667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 6.44026, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Armature/Skeleton3D/Plane_068:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.166667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 6.44026, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Armature/Skeleton3D/Plane_069:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.166667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 6.44026, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_56ge3"]
+_data = {
+&"RESET": SubResource("Animation_7j0rr"),
+&"rotatePropeller": SubResource("Animation_nqbha")
+}
+
+[node name="LunarLanderCopter" instance=ExtResource("1_nqbha")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
+
+[node name="Plane_023" parent="Armature" index="22"]
+transform = Transform3D(0.0109435, -0.0101747, -0.950256, -0.133548, 0.71836, -0.0156132, -0.718377, -0.1337, -0.0115733, -0.153659, -0.62567, 0.492726)
+
+[node name="Skeleton3D" parent="Armature" index="87"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0987153, -0.737573, -0.0397671)
+bones/0/position = Vector3(-0.18107, 3.93996, 0.1567)
+bones/0/rotation = Quaternion(0.520099, -0.479059, 0.479058, 0.520099)
+bones/1/position = Vector3(-0.181322, 3.93996, 0.156491)
+bones/1/rotation = Quaternion(0.018233, 0.706872, 0.706872, -0.018233)
+bones/2/position = Vector3(-0.181814, 3.93996, 0.155997)
+bones/2/rotation = Quaternion(-0.496631, -0.503346, -0.503346, 0.496631)
+bones/3/position = Vector3(-0.181029, 3.93996, 0.156732)
+bones/3/rotation = Quaternion(-0.706438, 0.0307407, 0.0307407, 0.706438)
+
+[node name="BoneLeft" parent="Armature_001" index="1"]
+transform = Transform3D(0.302391, -1.25735, 5.49606e-08, 0, -5.65277e-08, -1.2932, 1.25735, 0.302391, -1.32179e-08, -0.194791, 3.93996, 0.164062)
+
+[node name="BoneFront" parent="Armature_001" index="2"]
+transform = Transform3D(-1.266, 0.263872, 1.15342e-08, 0, -5.65277e-08, 1.2932, 0.263873, 1.266, 5.53384e-08, -0.194791, 3.93996, 0.164062)
+
+[node name="BoneRight" parent="Armature_001" index="3"]
+transform = Transform3D(0.181075, 1.28046, 5.59708e-08, 0, -5.65277e-08, 1.2932, 1.28046, -0.181075, -7.91507e-09, -0.194791, 3.93996, 0.164062)
+
+[node name="BoneBack" parent="Armature_001" index="4"]
+transform = Transform3D(1.25586, -0.308513, -1.34855e-08, 0, -5.65277e-08, 1.2932, -0.308513, -1.25586, -5.48956e-08, -0.194791, 3.93996, 0.164062)
+
+[node name="PropellerRotation" type="AnimationPlayer" parent="." index="3"]
+libraries = {
+&"": SubResource("AnimationLibrary_56ge3")
+}
+autoplay = "rotatePropeller"

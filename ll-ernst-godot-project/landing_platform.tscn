@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dp7ta7hd7mb5m"]
+
+[ext_resource type="Script" uid="uid://dhnntee5squcm" path="res://landing_platform.gd" id="1_bmsco"]
+[ext_resource type="PackedScene" uid="uid://cd15ulwjblgo6" path="res://lunar_lander_landing_platform.tscn" id="2_bmsco"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bmsco"]
+size = Vector3(6.92, 0.32, 7.026)
+
+[node name="LandingPlatform" type="Area3D"]
+script = ExtResource("1_bmsco")
+
+[node name="LunarLanderLandingPlatform" parent="." instance=ExtResource("2_bmsco")]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." groups=["landing_pad"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.257952, 0)
+shape = SubResource("BoxShape3D_bmsco")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

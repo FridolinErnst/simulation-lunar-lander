@@ -1,0 +1,8 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://yb0k0548rsyn"]
+
+[ext_resource type="FontFile" uid="uid://b6yvhshef8hav" path="res://Font/EagleLake-Regular.ttf" id="1_3jj13"]
+
+[resource]
+default_font_size = 30
+SpinBox/font_sizes/size = 30
+SpinBox/fonts/add = ExtResource("1_3jj13")
