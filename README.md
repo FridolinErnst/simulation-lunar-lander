@@ -12,8 +12,9 @@ Pilot the lander using thrust controls to counter gravity and land safely.
 **Controls**
 | Action | Key |
 |---------|-----|
-| Ascend / Up Thrust | ↑ / W |
-| Descend / Down Thrust | ↓ / S |
+| Ascend / Up Thrust | ↑ |
+| Descend / Down Thrust | ↓ |
+| Move Forwards / Backwards | W / S |
 | Move Left / Right | A / D |
 | Rotate Left / Right | ← / → |
 | Reset Camera | Space |
@@ -51,9 +52,7 @@ Full technical report detailing the **physics system**, **input design**, and **
 
 A short video demonstration (2 min) of gameplay, physics behavior, and landing detection.
 
-▶️ [Watch the demo video](LL-Ernst-Video.mkv)
-
-> If GitHub can’t preview `.mkv` directly, download and open locally — or convert to `.mp4` for in-page playback.
+🎥 [Watch Demo Video](LL-Ernst-Video.mp4)
 
 ---
 
@@ -62,7 +61,6 @@ A short video demonstration (2 min) of gameplay, physics behavior, and landing d
 
 **Fridolin Ernst**  
 University of Applied Sciences Technikum Wien  
-Department of Computer Science  
 Winter Semester 2025/26
 
 ---
