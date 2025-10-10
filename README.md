@@ -3,6 +3,10 @@
 A 3D **Lunar Lander simulation** built in **Godot**, featuring a fully custom physics system — no built-in rigid body dynamics.  
 The player controls a lander with realistic thrust and fuel mechanics, aiming to achieve a soft landing on various planets.
 
+## Lunar Lander Gameplay
+
+![Lunar Lander Gameplay](LLGameplay.png)
+
 ---
 
 ## 🎮 Gameplay Overview
